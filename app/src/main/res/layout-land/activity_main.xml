@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="mx.octaviocervantes.bienvenida.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgFondoLand"
+        android:background="@drawable/fondo_2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/descripcionLand" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton"
+        android:id="@+id/btnEntrarLand"
+        android:textColor="@color/titulo"
+        android:background="@color/boton"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txtTituloLand"
+        android:layout_alignLeft="@+id/txtTituloLand"
+        android:layout_alignStart="@+id/txtTituloLand"
+        android:layout_alignRight="@+id/txtTituloLand"
+        android:layout_alignEnd="@+id/txtTituloLand" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titulo"
+        android:id="@+id/txtTituloLand"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/tamaño_letra_land"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+</RelativeLayout>
